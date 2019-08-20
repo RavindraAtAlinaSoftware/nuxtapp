@@ -78,6 +78,7 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    publicPath: process.env.PUBLIC_PATH,
     extend (config, ctx) {
     }
   }
